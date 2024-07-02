@@ -79,7 +79,7 @@ aside ul li{
 	padding-right: 2%;
 }
 
-#design-selection {
+.design-selection {
 	position: absolute;
 	top: 540px;
 	left: 62%;
@@ -170,7 +170,19 @@ a:visited {
         position: static;
         width: 100%;
     }
-    
+	.explanation {
+		border-right: none;
+		width: 100%;
+	}
+	#zen-intro {
+		height: auto;
+	}
+	.participation {
+		flex-direction: column;
+	}
+	p {
+		text-indent: 0;
+	}
 }
 
 /*
@@ -183,3 +195,21 @@ Vamos Deixar nossa página mais adequada a mídia de impressão também!
 
 */
 
+@media print {
+	html {
+		font-family: 'Times New Roman', Times, serif;
+		
+	}
+	#zen-intro header {
+		background-color: #F2A663;
+		color: #400101;
+	}
+	.design-selection {
+        position: static;
+        width: 100%;
+    }
+	.explanation {
+		border-right: none;
+		width: 100%;
+	}
+}
