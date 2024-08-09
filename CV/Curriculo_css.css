@@ -1,0 +1,85 @@
+html{
+	background: #F2EEAC;
+	color: #120F26;
+
+	font-size: 18px;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: stadio
+}
+h4 {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 0.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Color Theme Swatches in Hex */
+secundaria { color: #120F26; }
+Principal { color: #F2EEAC; }
+destaque { color: #594327; }
+
+footer {
+    background-color: #594327;
+}
+
+#nav ul li { display: inline; }
+#nav ul li a{
+    padding: 2px 10px; 
+    /*display: inline-block;*/
+    color: #594327; 
+    text-decoration: none; 
+    border-bottom:1px solid #120F26;
+    border-top:1px solid #120F26;
+    border-left:1px solid #120F26;
+    border-right:1px solid #120F26;
+}
+#nav ul li a:hover { 
+    color: #120F26;
+    border-bottom:3px solid #592727;
+}
+.nav{
+    background: #F2EEAC;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*z-index: 1;*/
+}
+.Curriculo {
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    #nav {
+        display: block;
+        /*margin: 10px;*/
+    }
+    #nav ul li {
+        display: block;
+        padding: 3px 5px; 
+    }
+    #curriculo {
+        padding-top: 100px;
+    }
+    .Educação .Experiencias {
+    display: block;
+    }
+
+}
